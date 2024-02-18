@@ -1,2 +1,2 @@
-password="zxcvasdfqwer1234!@#"
+password=""
 user="ga6142827@gmail.com"
