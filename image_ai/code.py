@@ -9,7 +9,7 @@ import cv2
 myconfig=r"--psm 11 --oem 3"
 ##################################################################################################################
 text=pytesseract.image_to_string(Image.open('test.jpg'),config=myconfig,lang="eng")
-img=cv2.imread("test.jpg")
+img=cv2.imread("demo.png")
 height,width,_=img.shape
 data=pytesseract.image_to_data(img,config=myconfig,output_type=Output.DICT)
 amount_boxes=len(data['text'])
